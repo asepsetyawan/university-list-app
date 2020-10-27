@@ -1,0 +1,84 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+      "standard",
+      "standard-react",
+      "prettier"
+    ],
+    "plugins": [
+      "babel",
+      "import",
+      "jest",
+      "promise",
+      "react",
+      "react-hooks",
+      "prettier"
+    ],
+    "env": {
+      "jest/globals": true,
+      "browser": true
+    },
+    "globals": {
+      "__DEV__": false,
+      "__dirname": false,
+      "__PROD__": false,
+      "__STAG__": false,
+      "jest": false,
+      "module": false,
+      "process": false,
+      "Promise": false
+    },
+    "rules": {
+      "camelcase": 0,
+      "import/order": [
+        "warn",
+        {
+          "groups": [
+            "external"
+          ]
+        }
+      ],
+      "import/named": 2,
+      "import/no-unresolved": 2,
+      "indent": "off",
+      "jsx-quotes": [
+        "error",
+        "prefer-double"
+      ],
+      "key-spacing": 2,
+      "max-len": [
+        2,
+        160,
+        2
+      ],
+      "no-shadow": "warn",
+      "object-curly-spacing": [
+        1,
+        "always"
+      ],
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
+      "react/jsx-indent": "warn",
+      "react/no-deprecated": "warn",
+      "react/no-did-update-set-state": [
+        0,
+        "always"
+      ],
+      "react/no-this-in-sfc": 2,
+      "react/no-unused-prop-types": "warn",
+      "react/no-unused-state": "warn",
+      "react/prefer-stateless-function": "warn",
+      "space-before-function-paren": "off",
+      "class-methods-use-this": [
+        0,
+        {
+          "exceptMethods": [
+            "componentDidMount",
+            "componentDidUpdate",
+            "render"
+          ]
+        }
+      ],
+      "prettier/prettier": 1
+    }
+  }

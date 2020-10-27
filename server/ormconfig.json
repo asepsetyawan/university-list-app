@@ -1,0 +1,24 @@
+{
+    "type": "postgres",
+    "host": "john.db.elephantsql.com",
+    "port": 5432,
+    "username": "uyhwgqgs",
+    "password": "nGlbTG3Yyz7HeFchO_A126sw-iSCRpjP",
+    "database": "uyhwgqgs",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+        "src/entity/**/*.ts"
+    ],
+    "migrations": [
+        "src/migration/**/*.ts"
+    ],
+    "subscribers": [
+        "src/subscriber/**/*.ts"
+    ],
+    "cli": {
+        "entitiesDir": "src/entity",
+        "migrationsDir": "src/migration",
+        "subscribersDir": "src/subscriber"
+    }
+}
