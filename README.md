@@ -67,4 +67,5 @@ This command will run testing and will show unit test coverage in the command li
 - Register
 - Subscribe
 - Authentication
-- Bookmark University 
+- Bookmark University
+- Others
