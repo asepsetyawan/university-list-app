@@ -1,6 +1,6 @@
 # University List App
 I create this project as simple as possible in 8 hours, but hopefully can cover the requirement(mandatory component, unit test & coverage, eslint, responsive design)
-This project client was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) using javascript & graphql, and server was build using node js, typescript, and graphql
+This project client was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) using javascript & graphql, and server was build using node js, typescript, and graphql..
 
 ## Folder Structure
 In the project directory:
